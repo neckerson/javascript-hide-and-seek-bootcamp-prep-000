@@ -6,3 +6,5 @@ function nestedTarget() {
   var nodes = document.getElementById('#nested')
   return nodes.getElementsByClassName('.target')
 }
+
+console.log(nestedTarget())
