@@ -7,5 +7,5 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  return document.querySelector('li ul li:nth-child(3) h1')
+  return document.querySelector('li ul li:nth-child(3) h1 a')
 }
